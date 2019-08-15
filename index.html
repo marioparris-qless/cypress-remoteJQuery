@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reproduce issue with window.$</title>
+
+    <script>
+      window.$ = {
+        ajax: function (params) {
+          console.log(params);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <form action="">
+      <button id="button">Click Me</button>
+    </form>
+  </body>
+</html>

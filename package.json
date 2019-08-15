@@ -1,0 +1,14 @@
+{
+  "name": "cypress-remotejquery",
+  "version": "1.0.0",
+  "description": "Reproduce issue with Cypress and window.$",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.4.1"
+  }
+}
